@@ -1,0 +1,28 @@
+{
+  "user": {
+    "firstName": "Joe",
+    "lastName": "Bloggs",
+    "pin": 1234,
+    "customerId": 1,
+    "customerName": "Asset MS",
+    "currentAsset": {
+      "vehicleId": 1,
+      "registration": "ST06 MFU",
+      "hasTrackingDevice": true
+    },
+    "driverAppOptions": [
+      {
+        "driverAppOptionId": 1,
+        "visible": true,
+        "enabled": true,
+        "requiresPin": true
+      },
+      {
+        "driverAppOptionId": 2,
+        "visible": false,
+        "enabled": false,
+        "requiresPin": false
+      }
+    ]
+  }
+}
