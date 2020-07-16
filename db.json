@@ -26,6 +26,26 @@
       }
     ]
   },
+  "assets": [
+    {
+      "assetId": 123,
+      "registration": "ST06 MFU",
+      "bluetoothBeaconId": "ABC123",
+      "assetType": "van",
+      "hasTrackingDevice": true,
+      "defaultAsset": true,
+      "lastAssignedToUser": false
+    },
+    {
+      "assetId": 456,
+      "registration": "AV16 FPE",
+      "bluetoothBeaconId": "XYZ789",
+      "assetType": "lorry",
+      "hasTrackingDevice": false,
+      "defaultAsset": false,
+      "lastAssignedToUser": true
+    }
+  ],
   "surveys": [
     {
       "surveyId": 2,
