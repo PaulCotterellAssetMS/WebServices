@@ -26,6 +26,18 @@
       }
     ]
   },
+  "surveys": [
+    {
+      "surveyId": 2,
+      "scheduledFor": "2020-06-29",
+      "completed": false
+    },
+    {
+      "surveyId": 1,
+      "scheduledFor": "2020-05-29",
+      "completed": true
+    }
+  ],
   "journeys": [
     {
       "registration": "ST06 MFD",
