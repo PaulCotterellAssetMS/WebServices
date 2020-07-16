@@ -31,13 +31,15 @@
       "surveyId": 2,
       "scheduledFor": "2020-06-29",
       "completed": false,
-      "completedBy": null
+      "completedBy": null,
+      "completedAt": null
     },
     {
       "surveyId": 1,
       "scheduledFor": "2020-05-29",
       "completed": true,
-      "completedBy": "Paul Cotterell"
+      "completedBy": "Paul Cotterell",
+      "completedAt": "2020-07-01"
     }
   ],
   "journeys": [
