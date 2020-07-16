@@ -8,7 +8,8 @@
     "currentAsset": {
       "vehicleId": 1,
       "registration": "ST06 MFU",
-      "hasTrackingDevice": true
+      "hasTrackingDevice": true,
+      "assetSelectedAt": "2020-04-23 12:34:00"
     },
     "driverAppOptions": [
       {
