@@ -20,7 +20,7 @@
       },
       {
         "driverAppOptionId": 2,
-        "visible": true,
+        "visible": false,
         "enabled": true,
         "requiresPin": true
       },
