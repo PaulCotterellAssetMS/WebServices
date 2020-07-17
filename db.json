@@ -140,5 +140,125 @@
       "startLocation": "Carolbrook Road, Ipswich",
       "endLocation": "Reading"
     }
+  ],
+  "customerSurveys": [
+    {
+      "surveyId": 1,
+      "surveyData": {
+        "pages": [
+         {
+          "name": "page1",
+          "elements": [
+           {
+            "type": "text",
+            "name": "question1",
+            "title": "Your Name",
+            "description": "This should be your full name",
+            "isRequired": true,
+            "placeHolder": "Name"
+           },
+           {
+            "type": "checkbox",
+            "name": "question2",
+            "visibleIf": "{question1} = 'Paul'",
+            "title": "Weather Conditions",
+            "choices": [
+             {
+              "value": "item1",
+              "text": "Sunny"
+             },
+             {
+              "value": "item2",
+              "text": "Light Drizzle"
+             },
+             {
+              "value": "item3",
+              "text": "Raining"
+             },
+             {
+              "value": "item4",
+              "text": "Storm"
+             }
+            ]
+           },
+           {
+            "type": "comment",
+            "name": "question3",
+            "visibleIf": "{question2} = ['item3']",
+            "title": "Type of Rain",
+            "requiredIf": "{question2} = ['item3']"
+           },
+           {
+            "type": "checkbox",
+            "name": "question4",
+            "title": "Vehicle Checks",
+            "choices": [
+             {
+              "value": "item1",
+              "text": "Tyers"
+             },
+             {
+              "value": "item2",
+              "text": "Equipment"
+             },
+             {
+              "value": "item3",
+              "text": "Engine Oil"
+             }
+            ]
+           },
+           {
+            "type": "text",
+            "name": "question5",
+            "visibleIf": "{question4} allof ['item2', 'item3', 'item1']",
+            "title": "You're Done"
+           },
+           {
+            "type": "dropdown",
+            "name": "question13",
+            "title": "This is a dropdown",
+            "choices": [
+             "item1",
+             "item2",
+             "item3"
+            ]
+           },
+           {
+            "type": "radiogroup",
+            "name": "question12",
+            "title": "This is a radio test",
+            "choices": [
+             "All good",
+             "Okay",
+             "It's very bad"
+            ]
+           },
+           {
+            "type": "rating",
+            "title": "Rate your experience",
+            "name": "question14",
+            "rateMax": 20
+           },
+           {
+            "type": "boolean",
+            "title": "Do you have car keys?",
+            "name": "question15"
+           },
+           {
+            "type": "signaturepad",
+            "title": "Signature",
+            "name": "question16"
+           },
+           {
+            "type": "file",
+            "title": "Take picture of damage",
+            "name": "question10",
+            "maxSize": 0
+           },
+          ]
+         }
+        ]
+       } 
+    }
   ]
 }
