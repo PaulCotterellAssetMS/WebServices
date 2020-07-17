@@ -278,14 +278,5 @@
         ]
       }
     }
-  ],
-  "blah": [
-    {
-      "locationId": 0,
-      "location": "176 Ranelagh Road, Ipswich",
-      "eventDate": "2018-12-10 05:54:50",
-      "latitude": "52.337005",
-      "longitude": "1.129629"
-    }
   ]
 }
