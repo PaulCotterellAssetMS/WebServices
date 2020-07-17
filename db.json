@@ -20,9 +20,27 @@
       },
       {
         "driverAppOptionId": 2,
-        "visible": false,
-        "enabled": false,
-        "requiresPin": false
+        "visible": true,
+        "enabled": true,
+        "requiresPin": true
+      },
+      {
+        "driverAppOptionId": 3,
+        "visible": true,
+        "enabled": true,
+        "requiresPin": true
+      },
+      {
+        "driverAppOptionId": 4,
+        "visible": true,
+        "enabled": true,
+        "requiresPin": true
+      },
+      {
+        "driverAppOptionId": 5,
+        "visible": true,
+        "enabled": true,
+        "requiresPin": true
       }
     ]
   },
