@@ -5,7 +5,7 @@
     "pin": 1234,
     "customerId": 1,
     "customerName": "Asset MS",
-    "customerDateFormat": "dd/MM/yyyy hh:mm:ss",
+    "customerDateFormat": "dd/MM/yyyy",
     "customerTimeZoneOffset": 5,
     "currentAsset": {
       "vehicleId": 1,
