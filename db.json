@@ -5,6 +5,8 @@
     "pin": 1234,
     "customerId": 1,
     "customerName": "Asset MS",
+    "customerDateFormat": "dd/MM/yyyy hh:mm:ss",
+    "customerTimeZoneOffset": 5,
     "currentAsset": {
       "vehicleId": 1,
       "registration": "ST06 MFU",
