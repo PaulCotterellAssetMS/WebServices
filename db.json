@@ -11,7 +11,7 @@
       "vehicleId": 1,
       "registration": "ST06 MFU",
       "hasTrackingDevice": true,
-      "assetSelectedAt": "2020-04-23 12:34:00"
+      "assetSelectedAt": 1595250417
     },
     "driverAppOptions": [
       {
@@ -69,17 +69,17 @@
   "surveys": [
     {
       "surveyId": 1,
-      "scheduledFor": "2020-06-29",
+      "scheduledFor": 1595250417,
       "completed": false,
       "completedBy": null,
       "completedAt": null
     },
     {
       "surveyId": 1,
-      "scheduledFor": "2020-05-29",
+      "scheduledFor": 1595250417,
       "completed": true,
       "completedBy": "Paul Cotterell",
-      "completedAt": "2020-07-01"
+      "completedAt": 1595250417
     }
   ],
   "journeys": [
