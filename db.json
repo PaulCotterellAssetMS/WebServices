@@ -10,6 +10,7 @@
     "currentAsset": {
       "vehicleId": 1,
       "registration": "ST06 MFU",
+      "vehicleType": "Car",
       "hasTrackingDevice": true,
       "assetSelectedAt": 1595250417
     },
