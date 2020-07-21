@@ -69,6 +69,7 @@
   "surveys": [
     {
       "surveyId": 1,
+      "surveyName": "HGV Survey",
       "scheduledFor": 1595550417,
       "completed": false,
       "completedBy": null,
@@ -76,6 +77,7 @@
     },
     {
       "surveyId": 1,
+      "surveyName": "HGV Survey",
       "scheduledFor": 1595250417,
       "completed": true,
       "completedBy": "Paul Cotterell",
