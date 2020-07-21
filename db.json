@@ -164,6 +164,7 @@
   "customerSurveys": [
     {
       "surveyId": 1,
+      "name": "HGV Checks",
       "surveyData": {
         "pages": [
           {
