@@ -54,7 +54,8 @@
       "assetType": "van",
       "hasTrackingDevice": true,
       "defaultAsset": true,
-      "lastAssignedToUser": false
+      "lastAssignedToUser": false,
+      "depotName": "Manchester"
     },
     {
       "assetId": 456,
@@ -63,7 +64,8 @@
       "assetType": "lorry",
       "hasTrackingDevice": false,
       "defaultAsset": false,
-      "lastAssignedToUser": true
+      "lastAssignedToUser": true,
+      "depotName": "London"
     }
   ],
   "surveys": [
