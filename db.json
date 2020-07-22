@@ -61,7 +61,7 @@
     {
       "assetId": 456,
       "registration": "AV16 FPE",
-      "bluetoothBeaconId": "XYZ789",
+      "bluetoothBeaconId": "FB90B07E-7E8B-43A5-18AE-4C226A65C7A9",
       "assetType": "lorry",
       "hasTrackingDevice": false,
       "defaultAsset": false,
