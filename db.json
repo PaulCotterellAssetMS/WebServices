@@ -51,7 +51,7 @@
     {
       "assetId": 123,
       "registration": "ST06 MFU",
-      "bluetoothBeaconId": "ABC123",
+      "bluetoothBeaconId": "66069004-B4E3-BAD4-B24B-59AF854B5E17",
       "assetType": "van",
       "hasTrackingDevice": true,
       "defaultAsset": true,
@@ -62,6 +62,46 @@
       "assetId": 456,
       "registration": "AV16 FPE",
       "bluetoothBeaconId": "FB90B07E-7E8B-43A5-18AE-4C226A65C7A9",
+      "assetType": "lorry",
+      "hasTrackingDevice": false,
+      "defaultAsset": false,
+      "lastAssignedToUser": true,
+      "depotName": "London"
+    },
+    {
+      "assetId":457,
+      "registration": "OU18 BUX",
+      "bluetoothBeaconId": null,
+      "assetType": "lorry",
+      "hasTrackingDevice": false,
+      "defaultAsset": false,
+      "lastAssignedToUser": true,
+      "depotName": "London"
+    },
+    {
+      "assetId":458,
+      "registration": "AV12 NMX",
+      "bluetoothBeaconId": null,
+      "assetType": "lorry",
+      "hasTrackingDevice": false,
+      "defaultAsset": false,
+      "lastAssignedToUser": true,
+      "depotName": "London"
+    },
+    {
+      "assetId":459,
+      "registration": "D212 PPE",
+      "bluetoothBeaconId": null,
+      "assetType": "lorry",
+      "hasTrackingDevice": false,
+      "defaultAsset": false,
+      "lastAssignedToUser": true,
+      "depotName": "London"
+    },
+    {
+      "assetId":460,
+      "registration": "AF13 TTR",
+      "bluetoothBeaconId": null,
       "assetType": "lorry",
       "hasTrackingDevice": false,
       "defaultAsset": false,
