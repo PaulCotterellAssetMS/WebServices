@@ -293,7 +293,8 @@
                   "item1",
                   "item2",
                   "item3"
-                ]
+                ],
+                "hasOther": true
               },
               {
                 "type": "radiogroup",
