@@ -249,7 +249,8 @@
                     "value": "item4",
                     "text": "Storm"
                   }
-                ]
+                ],
+                "hasOther": true
               },
               {
                 "type": "comment",
