@@ -303,7 +303,8 @@
                   "All good",
                   "Okay",
                   "It's very bad"
-                ]
+                ],
+                "hasOther": true
               },
               {
                 "type": "rating",
