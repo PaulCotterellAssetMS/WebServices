@@ -229,6 +229,9 @@
                 "name": "question2",
                 "visibleIf": "{question1} = 'Paul'",
                 "title": "Weather Conditions",
+                "defaultValue": [
+                  "item3"
+                ],
                 "choices": [
                   {
                     "value": "item1",
