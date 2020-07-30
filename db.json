@@ -221,6 +221,7 @@
                 "title": "Your Name",
                 "description": "This should be your full name",
                 "isRequired": true,
+                "defaultValue": "Weel",
                 "placeHolder": "Name"
               },
               {
