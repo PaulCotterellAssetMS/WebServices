@@ -226,7 +226,7 @@
                 "validators": [
                   {
                    "type": "text",
-                   "text": "rge",
+                   "text": "Name Invalid",
                    "minLength": 1,
                    "maxLength": 100,
                    "allowDigits": true
