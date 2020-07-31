@@ -229,7 +229,7 @@
                    "text": "Name Invalid",
                    "minLength": 3,
                    "maxLength": 100,
-                   "allowDigits": true
+                   "allowDigits": false
                   }
                  ]
               },
