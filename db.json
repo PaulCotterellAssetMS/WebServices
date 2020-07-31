@@ -259,6 +259,14 @@
                     "text": "Storm"
                   }
                 ],
+                "validators": [
+                  {
+                   "type": "answercount",
+                   "text": "Min 1 - Max 2",
+                   "minCount": 1,
+                   "maxCount": 2
+                  }
+                 ],
                 "hasOther": true
               },
               {
