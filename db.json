@@ -227,7 +227,7 @@
                   {
                    "type": "text",
                    "text": "Name Invalid",
-                   "minLength": 1,
+                   "minLength": 3,
                    "maxLength": 100,
                    "allowDigits": true
                   }
