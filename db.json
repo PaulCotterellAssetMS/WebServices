@@ -222,7 +222,16 @@
                 "description": "This should be your full name",
                 "isRequired": true,
                 "defaultValue": "Weel",
-                "placeHolder": "Name"
+                "placeHolder": "Name",
+                "validators": [
+                  {
+                   "type": "text",
+                   "text": "rge",
+                   "minLength": 1,
+                   "maxLength": 100,
+                   "allowDigits": true
+                  }
+                 ]
               },
               {
                 "type": "checkbox",
