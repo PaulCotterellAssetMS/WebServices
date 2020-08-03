@@ -356,7 +356,9 @@
                 "name": "question21",
                 "title": "Date",
                 "isRequired": true,
-                "inputType": "datetime"
+                "inputType": "time",
+                "min": "17:28",
+                "max": "22:28"
                }
             ]
           }
