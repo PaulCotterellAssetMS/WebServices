@@ -245,17 +245,6 @@
                  ]
               },
               {
-                "type": "text",
-                "name": "question6",
-                "title": "How many things",
-                "validators": [
-                {
-                  "type": "email",
-                  "text": "Invalid Email"
-                }
-                ]
-              },
-              {
                 "type": "checkbox",
                 "name": "question2",
                 "visibleIf": "{question1} = 'Paul'",
@@ -296,7 +285,13 @@
                 "name": "question3",
                 "visibleIf": "{question2} = ['item3']",
                 "title": "Type of Rain",
-                "requiredIf": "{question2} = ['item3']"
+                "requiredIf": "{question2} = ['item3']",
+                "validators": [
+                  {
+                    "type": "email",
+                    "text": "Invalid Email"
+                  }
+                ]
               },
               {
                 "type": "checkbox",
