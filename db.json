@@ -235,22 +235,15 @@
                     "type": "regex",
                     "text": "Name Invalid (Reg)",
                     "regex": "abc{2,5}"
-                   }
+                  },
+                  {
+                    "type": "numeric",
+                    "text": "Numbers Only",
+                    "minValue": 1,
+                    "maxValue": 25
+                  }
                  ]
               },
-              {
-                "type": "text",
-                "name": "question6",
-                "title": "How many things?",
-                "validators": [
-                 {
-                  "type": "numeric",
-                  "text": "Numbers Only",
-                  "minValue": 1,
-                  "maxValue": 25
-                 }
-                ]
-               },
               {
                 "type": "checkbox",
                 "name": "question2",
