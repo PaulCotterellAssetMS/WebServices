@@ -351,15 +351,6 @@
                 "name": "question10",
                 "maxSize": 0
               },
-              {
-                "type": "text",
-                "name": "question20",
-                "title": "Range",
-                "isRequired": true,
-                "inputType": "range",
-                "min": "0",
-                "max": "100"
-               },
                {
                 "type": "text",
                 "name": "question21",
