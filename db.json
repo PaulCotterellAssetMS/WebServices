@@ -247,7 +247,7 @@
               {
                 "type": "text",
                 "name": "question6",
-                "title": "How many things?",
+                "title": "How many things",
                 "validators": [
                 {
                   "type": "email",
