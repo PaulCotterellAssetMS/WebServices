@@ -271,7 +271,14 @@
                 "name": "question3",
                 "visibleIf": "{question2} = ['item3']",
                 "title": "Type of Rain",
-                "requiredIf": "{question2} = ['item3']"
+                "requiredIf": "{question2} = ['item3']",
+                "validators": [
+                  {
+                   "type": "expression",
+                   "text": "EXP Invalid",
+                   "expression": "{question1} contains '@'"
+                  }
+                 ]
               },
               {
                 "type": "checkbox",
