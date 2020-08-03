@@ -223,7 +223,7 @@
                 "isRequired": true,
                 "defaultValue": "Weel",
                 "placeHolder": "Name",
-                "inputType": "password",
+                "inputType": "color",
                 "validators": [
                   {
                     "type": "email",
