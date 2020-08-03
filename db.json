@@ -359,6 +359,14 @@
                 "inputType": "range",
                 "min": "0",
                 "max": "100"
+               },
+               {
+                "type": "text",
+                "name": "question21",
+                "title": "Date",
+                "isRequired": true,
+                "inputType": "date",
+                "max": "2999-12-31"
                }
             ]
           }
