@@ -356,7 +356,7 @@
                 "name": "question21",
                 "title": "Date",
                 "isRequired": true,
-                "inputType": "date",
+                "inputType": "datetime",
                 "max": "2999-12-31"
                }
             ]
