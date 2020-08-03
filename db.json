@@ -245,6 +245,17 @@
                  ]
               },
               {
+                "type": "text",
+                "name": "question6",
+                "title": "How many things?",
+                "validators": [
+                {
+                  "type": "email",
+                  "text": "Invalid Email"
+                }
+                ]
+              },
+              {
                 "type": "checkbox",
                 "name": "question2",
                 "visibleIf": "{question1} = 'Paul'",
