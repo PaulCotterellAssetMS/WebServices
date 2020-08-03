@@ -230,7 +230,12 @@
                    "minLength": 3,
                    "maxLength": 100,
                    "allowDigits": false
-                  }
+                  },
+                  {
+                    "type": "regex",
+                    "text": "Name Invalid (Reg)",
+                    "regex": "/abc{2,5}/g"
+                   }
                  ]
               },
               {
