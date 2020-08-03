@@ -225,24 +225,10 @@
                 "placeHolder": "Name",
                 "validators": [
                   {
-                   "type": "text",
-                   "text": "Name Invalid",
-                   "minLength": 3,
-                   "maxLength": 100,
-                   "allowDigits": false
-                  },
-                  {
-                    "type": "regex",
-                    "text": "Name Invalid (Reg)",
-                    "regex": "abc{2,5}"
-                  },
-                  {
-                    "type": "numeric",
-                    "text": "Numbers Only",
-                    "minValue": 1,
-                    "maxValue": 25
+                    "type": "email",
+                    "text": "Invalid Email"
                   }
-                 ]
+                ]
               },
               {
                 "type": "checkbox",
@@ -285,13 +271,7 @@
                 "name": "question3",
                 "visibleIf": "{question2} = ['item3']",
                 "title": "Type of Rain",
-                "requiredIf": "{question2} = ['item3']",
-                "validators": [
-                  {
-                    "type": "email",
-                    "text": "Invalid Email"
-                  }
-                ]
+                "requiredIf": "{question2} = ['item3']"
               },
               {
                 "type": "checkbox",
