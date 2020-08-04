@@ -200,6 +200,12 @@
             "inputType": "email"
            },
            {
+            "type": "text",
+            "name": "question16",
+            "title": "Mobile",
+            "inputType": "tel"
+           },
+           {
             "type": "comment",
             "name": "question14",
             "title": "This is Read Only",
