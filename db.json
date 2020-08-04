@@ -203,8 +203,15 @@
             "type": "comment",
             "name": "question14",
             "title": "This is Read Only",
-            "defaultValue": "This is a read only field with a default value.",
             "readOnly": true
+           },
+           {
+            "type": "text",
+            "name": "question15",
+            "title": "Slider",
+            "inputType": "range",
+            "min": "0",
+            "max": "100"
            },
            {
             "type": "text",
