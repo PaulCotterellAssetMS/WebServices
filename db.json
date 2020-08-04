@@ -181,6 +181,7 @@
           {
             "name": "page1",
             "title": "Your Information",
+            "description": "This is the page where you enter info",
             "elements": [
               {
                 "type": "text",
@@ -328,7 +329,27 @@
                 "max": "22:28"
                }
             ]
-          }
+          },
+          {
+            "name": "page2",
+            "elements": [
+             {
+              "type": "radiogroup",
+              "name": "question3",
+              "choices": [
+               "item1",
+               "item2",
+               "item3"
+              ]
+             },
+             {
+              "type": "rating",
+              "name": "question4"
+             }
+            ],
+            "title": "Ratings",
+            "description": "This is the page where you enter ratings"
+           }
         ]
       }
     }
