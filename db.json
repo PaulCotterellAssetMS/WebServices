@@ -171,6 +171,7 @@
             "type": "text",
             "name": "question1",
             "title": "Name",
+            "defaultValue": "Default",
             "isRequired": true,
             "validators": [
              {
