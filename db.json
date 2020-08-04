@@ -321,7 +321,7 @@
             "elements": [
              {
               "type": "radiogroup",
-              "name": "question3",
+              "name": "question31",
               "choices": [
                "item1",
                "item2",
@@ -330,7 +330,7 @@
              },
              {
               "type": "rating",
-              "name": "question4"
+              "name": "question41"
              }
             ],
             "title": "Ratings",
