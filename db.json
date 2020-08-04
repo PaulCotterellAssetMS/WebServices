@@ -164,182 +164,128 @@
       "name": "HGV Checks",
       "surveyData": {
         "pages": [
-          {
-            "name": "page1",
-            "title": "Your Information",
-            "description": "This is the page where you enter info",
-            "elements": [
-              {
-                "type": "text",
-                "name": "question1",
-                "title": "Your Name",
-                "description": "This should be your full name",
-                "isRequired": true,
-                "defaultValue": "Weel",
-                "placeHolder": "Name",
-                "inputType": "color",
-                "validators": [
-                  {
-                    "type": "email",
-                    "text": "Invalid Email"
-                  }
-                ]
-              },
-              {
-                "type": "checkbox",
-                "name": "question2",
-                "visibleIf": "{question1} = 'Paul'",
-                "title": "Weather Conditions",
-                "defaultValue": [
-                  "item3"
-                ],
-                "choices": [
-                  {
-                    "value": "item1",
-                    "text": "Sunny"
-                  },
-                  {
-                    "value": "item2",
-                    "text": "Light Drizzle"
-                  },
-                  {
-                    "value": "item3",
-                    "text": "Raining"
-                  },
-                  {
-                    "value": "item4",
-                    "text": "Storm"
-                  }
-                ],
-                "validators": [
-                  {
-                   "type": "answercount",
-                   "text": "Min 1 - Max 2",
-                   "minCount": 1,
-                   "maxCount": 2
-                  }
-                 ],
-                "hasOther": true
-              },
-              {
-                "type": "comment",
-                "name": "question3",
-                "visibleIf": "{question2} = ['item3']",
-                "title": "Type of Rain",
-                "requiredIf": "{question2} = ['item3']",
-                "validators": [
-                  {
-                   "type": "expression",
-                   "text": "EXP Invalid",
-                   "expression": "{question1} contains '@'"
-                  }
-                 ]
-              },
-              {
-                "type": "checkbox",
-                "name": "question4",
-                "title": "Vehicle Checks",
-                "readOnly": true,
-                "choices": [
-                  {
-                    "value": "item1",
-                    "text": "Tyers"
-                  },
-                  {
-                    "value": "item2",
-                    "text": "Equipment"
-                  },
-                  {
-                    "value": "item3",
-                    "text": "Engine Oil"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "name": "question5",
-                "visibleIf": "{question4} allof ['item2', 'item3', 'item1']",
-                "title": "You're Done"
-              },
-              {
-                "type": "dropdown",
-                "name": "question13",
-                "title": "This is a dropdown",
-                "choices": [
-                  "item1",
-                  "item2",
-                  "item3"
-                ],
-                "hasOther": true
-              },
-              {
-                "type": "radiogroup",
-                "name": "question12",
-                "title": "This is a radio test",
-                "choices": [
-                  "All good",
-                  "Okay",
-                  "It's very bad"
-                ],
-                "hasOther": true
-              },
-              {
-                "type": "rating",
-                "title": "Rate your experience",
-                "name": "question14",
-                "rateMax": 20
-              },
-              {
-                "type": "boolean",
-                "title": "Do you have car keys?",
-                "name": "question15"
-              },
-              {
-                "type": "signaturepad",
-                "title": "Signature",
-                "name": "question16"
-              },
-              {
-                "type": "file",
-                "title": "Take picture of damage",
-                "name": "question10",
-                "maxSize": 0
-              },
-               {
-                "type": "text",
-                "name": "question21",
-                "title": "Date",
-                "isRequired": true,
-                "inputType": "time",
-                "min": "17:28",
-                "max": "22:28"
-               }
-            ]
-          },
-          {
-            "name": "page2",
-            "elements": [
+         {
+          "name": "page1",
+          "elements": [
+           {
+            "type": "text",
+            "name": "question1",
+            "title": "Name",
+            "isRequired": true,
+            "validators": [
              {
-               "title": "Choose Item",
-              "type": "radiogroup",
-              "name": "question31",
-              "choices": [
-               "Hello",
-               "Paul",
-               "Cotterell"
-              ]
-             },
-             {
-               "title": "Rate the thing",
-              "type": "rating",
-              "name": "question41"
+              "type": "text",
+              "minLength": 3,
+              "maxLength": 10
              }
-            ],
-            "title": "Ratings",
-            "description": "This is the page where you enter ratings"
+            ]
+           },
+           {
+            "type": "text",
+            "name": "question2",
+            "title": "Age",
+            "isRequired": true,
+            "inputType": "number"
+           },
+           {
+            "type": "text",
+            "name": "question3",
+            "title": "Favorite Colour",
+            "isRequired": true,
+            "inputType": "color"
            }
+          ],
+          "title": "Your Information",
+          "description": "This is the page where you enter info"
+         },
+         {
+          "name": "page2",
+          "elements": [
+           {
+            "type": "radiogroup",
+            "name": "question4",
+            "title": "Type of Vehicle",
+            "isRequired": true,
+            "choices": [
+             "Car",
+             "Van",
+             "LGV",
+             "HGV",
+             "Big Rig"
+            ]
+           },
+           {
+            "type": "boolean",
+            "name": "question5",
+            "visibleIf": "{question4} notempty",
+            "title": "Have you checked the oil",
+            "isRequired": true
+           },
+           {
+            "type": "text",
+            "name": "question6",
+            "visibleIf": "{question5} = true",
+            "title": "Oil Level",
+            "requiredIf": "{question5} = true",
+            "inputType": "number",
+            "min": "0",
+            "max": "100"
+           }
+          ],
+          "title": "Your Vehicle",
+          "description": "This is all about your vehicle"
+         },
+         {
+          "name": "page3",
+          "elements": [
+           {
+            "type": "text",
+            "name": "question7",
+            "title": "Date of Job",
+            "isRequired": true,
+            "inputType": "date",
+            "max": "2999-12-31"
+           },
+           {
+            "type": "text",
+            "name": "question8",
+            "title": "Time of Job",
+            "isRequired": true,
+            "inputType": "time"
+           },
+           {
+            "type": "rating",
+            "name": "question9",
+            "title": "Current State of Pool",
+            "isRequired": true,
+            "rateMax": 10
+           },
+           {
+            "type": "file",
+            "name": "question10",
+            "title": "Take a Picture",
+            "isRequired": true,
+            "maxSize": 0
+           }
+          ],
+          "title": "The Job",
+          "description": "Enter Job Details"
+         },
+         {
+          "name": "page4",
+          "elements": [
+           {
+            "type": "signaturepad",
+            "name": "question11",
+            "title": "Customer Signature",
+            "isRequired": true
+           }
+          ],
+          "title": "Sign Off",
+          "description": "Please ask the client to sign"
+         }
         ]
-      }
+       }
     }
   ]
 }
