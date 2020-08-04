@@ -215,6 +215,7 @@
           {
             "name": "page1",
             "title": "Your Information",
+            "description": "This is a description test",
             "elements": [
               {
                 "type": "text",
