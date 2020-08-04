@@ -203,7 +203,8 @@
             "type": "comment",
             "name": "question14",
             "title": "This is Read Only",
-            "defaultValue": "This is a read only field with a default value."
+            "defaultValue": "This is a read only field with a default value.",
+            "readOnly": true
            },
            {
             "type": "text",
