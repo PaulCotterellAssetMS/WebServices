@@ -214,6 +214,7 @@
         "pages": [
           {
             "name": "page1",
+            "title": "Your Information",
             "elements": [
               {
                 "type": "text",
