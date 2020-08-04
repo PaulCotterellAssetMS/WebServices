@@ -189,6 +189,29 @@
            },
            {
             "type": "text",
+            "name": "question12",
+            "title": "Email",
+            "validators": [
+             {
+              "type": "email"
+             }
+            ],
+            "inputType": "email"
+           },
+           {
+            "type": "text",
+            "name": "question13",
+            "title": "Regex Test",
+            "validators": [
+             {
+              "type": "regex",
+              "text": "Regex Validation Failed",
+              "regex": "abc{2,5}"
+             }
+            ]
+           },
+           {
+            "type": "text",
             "name": "question3",
             "title": "Favorite Colour",
             "isRequired": true,
